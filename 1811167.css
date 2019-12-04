@@ -1,0 +1,72 @@
+body {
+  width: 80%;
+  font-family: georgia, times, serif;
+  color: #985d6a;
+  margin: auto;
+  padding: 10px;
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
+
+legend {
+  border: 1px solid black;
+  padding: inherit;
+}
+
+.nasigoreng {
+  float: right;
+  border: 1px solid black;
+  padding: inherit;
+  margin-right: 200px;
+}
+
+.tomyum {
+  float: right;
+  border: 1px solid black;
+  padding: inherit;
+  margin-right: 250px;
+
+}
+
+input {
+  float: right;
+  width: 25px;
+  height: 25px;
+}
+
+#add {
+  margin-top: 10px;
+  padding-right:  40%;
+  padding-left: 45%;
+}
+
+#tomm{
+  /* padding-top: 20px; */
+}
+
+#placeorder {
+  margin-top: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 46%;
+  padding-right: 46%;
+  /* margin: auto;
+  width: 50%;
+  padding: 10px; */
+}
+
+.yourbill {
+  margin-top: 30px;
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="1811167.css">
+  </head>
+  <body>
+    <h1 align="center">Restoran Rabiha</h1>
+    <h3 align="center">Table 15</h3>
+
+    <fieldset>
+      <legend>Menu</legend>
+      <img src="https://italeem.iium.edu.my/2019/pluginfile.php/297519/mod_resource/content/1/nasi.jpg" alt="nasi">
+      <div class="nasigoreng">
+        Nasi goreng kampung ala Thai RM10.00
+        <p>Quantity: <input type="number" name="" value="" id="countnasi"></p>
+        <p>Add-On Hard Boiled Egg <input type="number" name="" value="" id="addboiledegg"></p>
+        <p><button type="button" name="button" onclick="count()" id="add">ADD</button></p>
+      </div>
+
+      <img src="https://italeem.iium.edu.my/2019/pluginfile.php/297521/mod_resource/content/1/tomyum.jpg" alt="tomyum" id="tomm">
+      <div class="tomyum">
+        Prawn tom yum soup RM15.00
+        <p>Quantity: <input type="number" name="" value="" id="counttomyum"></p>
+        <p><button type="button" name="button" onclick="counttom()" id="add">ADD</button></p>
+      </div>
+      <p><button type="button" name="button" id="placeorder" onclick="totall()">PLACE ORDER</button></p>
+    </fieldset>
+
+    <fieldset class="yourbill">
+      <legend>Your Bill</legend>
+      <div class="bill">
+        <p id="bill1"></p>
+        <p id="bill2"></p>
+        <p id="bill3"></p>
+        <p id="total"></p>
+        <p id="tax"></p>
+        <p id="gtotal"></p>
+
+      </div>
+    </fieldset>
+    <script type="text/javascript" src="1811167.js">
+
+    </script>
+
+
+  </body>
+</html>
